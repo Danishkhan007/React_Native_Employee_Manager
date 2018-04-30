@@ -1,3 +1,9 @@
+/*
+ * @Author: Mohd Danish Khan 
+ * @Date:2018-04-20
+ *  
+ */
+
 //Import libraries for making the component
 import React from 'react';
 import { Text, View } from 'react-native';

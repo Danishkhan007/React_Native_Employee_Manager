@@ -1,3 +1,9 @@
+/*
+ * @Author: Mohd Danish Khan 
+ * @Date:2018-04-22
+ *  
+ */
+
 import React from 'react';
 import { View, Text, Image, Linking } from 'react-native';
 import Card from './Card';

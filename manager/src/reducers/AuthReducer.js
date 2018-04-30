@@ -1,3 +1,9 @@
+/*
+ * @Author: Mohd Danish Khan 
+ * @Date:2018-04-22
+ *  
+ */
+
 import { 
     EMAIL_CHANGED, 
     PASSWORD_CHANGED, 
@@ -40,6 +46,7 @@ export default (state = INITIAL_STATE, action) => {
             return { ...state, 
                 ...INITIAL_STATE,
                 user: action.payload, 
+                error: ''
             };
         case LOGIN_USER_FAIL:
             return { ...state, error: 'Authentication Failed.', loading: false };

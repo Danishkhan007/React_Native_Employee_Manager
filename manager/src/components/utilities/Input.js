@@ -1,3 +1,9 @@
+/*
+ * @Author: Mohd Danish Khan 
+ * @Date:2018-04-20
+ *  
+ */
+
 import React from 'react';
 import { TextInput, View, Text } from 'react-native';
 
